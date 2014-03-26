@@ -29,3 +29,57 @@ header {
   padding: 10px;
   margin: 1em 0;
 }
+/*   *****************      */
+
+a {  text-decoration: none; }
+
+
+nav {  
+  background-color: black; 
+  height: 80px
+}
+
+li {
+  margin-top: 1.5em;
+  width: 5em;
+  font-family: arial;
+  color: white;
+  display: inline;
+  float: right;
+}
+
+.brand a {
+  margin-top: 0.5em;
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  float: left;
+}
+
+
+.marketing{ background-color: #333; }
+
+.marketing h2, .marketing p { color: white; }
+
+.features div  {
+  float: left;
+  width: 32%;
+}
+
+.features div:nth-child(2){
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+
+.features div:nth-child(3){ padding-left: 10px }
+
+.marketing { float: left; }
+
+footer {
+  width:100%;
+  text-align: center;
+  margin-top: 100px;
+  clear:both;
+}
