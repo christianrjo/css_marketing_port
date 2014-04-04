@@ -56,6 +56,7 @@ li {
   float: left;
 }
 
+nav a:hover { color: white; }
 
 .marketing{ background-color: #333; }
 
